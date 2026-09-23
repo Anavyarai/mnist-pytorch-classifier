@@ -49,29 +49,29 @@ Predicted Digit
 
 ### Architecture Details
 
-| Component     | Details                 |
-| ------------- | ----------------------- |
-| Input         | 28 × 28 grayscale image |
-| Flatten       | 784 input features      |
-| Hidden Layer  | 128 neurons             |
-| Activation    | ReLU                    |
-| Output Layer  | 10 neurons              |
-| Loss Function | Cross Entropy Loss      |
-| Optimizer     | Adam                    |
-| Learning Rate | 0.001                   |
-| Epochs        | 5                       |
-| Batch Size    | 64                      |
-| Test Accuracy | **97.46%**              |
+| Component | Details |
+|---|---|
+| Input | 28 × 28 grayscale image |
+| Flatten | 784 input features |
+| Hidden Layer | 128 neurons |
+| Activation | ReLU |
+| Output Layer | 10 neurons |
+| Loss Function | Cross Entropy Loss |
+| Optimizer | Adam |
+| Learning Rate | 0.001 |
+| Epochs | 5 |
+| Batch Size | 64 |
+| Test Accuracy | **97.46%** |
 
 ## Dataset
 
 The project uses the **MNIST handwritten digit dataset**.
 
-* Training images: 60,000
-* Test images: 10,000
-* Image size: 28 × 28 pixels
-* Classes: 10
-* Classes represent digits: 0–9
+- Training images: 60,000
+- Test images: 10,000
+- Image size: 28 × 28 pixels
+- Classes: 10
+- Classes represent digits: 0–9
 
 ## Project Structure
 
@@ -166,37 +166,37 @@ Predicted digit: 6
 
 This project covers the fundamental PyTorch workflow:
 
-* Tensors
-* Datasets
-* DataLoaders
-* `nn.Module`
-* Linear layers
-* ReLU activation
-* Forward pass
-* Cross-entropy loss
-* Adam optimizer
-* Backpropagation
-* Training loops
-* Model evaluation
-* Saving and loading model weights
+- Tensors
+- Datasets
+- DataLoaders
+- `nn.Module`
+- Linear layers
+- ReLU activation
+- Forward pass
+- Cross-entropy loss
+- Adam optimizer
+- Backpropagation
+- Training loops
+- Model evaluation
+- Saving and loading model weights
 
 ## Future Improvements
 
 Possible extensions include:
 
-* Build a graphical interface for drawing digits
-* Add prediction confidence
-* Visualize incorrect predictions
-* Experiment with different network architectures
-* Replace the feedforward network with a CNN
-* Compare model performance across different hyperparameters
+- Build a graphical interface for drawing digits
+- Add prediction confidence
+- Visualize incorrect predictions
+- Experiment with different network architectures
+- Replace the feedforward network with a CNN
+- Compare model performance across different hyperparameters
 
 ## Technologies
 
-* Python
-* PyTorch
-* Torchvision
-* Matplotlib
+- Python
+- PyTorch
+- Torchvision
+- Matplotlib
 
 ## Result
 
